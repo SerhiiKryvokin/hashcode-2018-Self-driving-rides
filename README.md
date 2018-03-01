@@ -1,6 +1,6 @@
 total score: 49,140,674
 
-# solution description
+### solution description
 Events describe possible actions in the point of time:
 START - assign a ride in earliest time and get the bonus
 POSTPONED_START - assign a ride without bonus
