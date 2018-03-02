@@ -20,7 +20,7 @@ public class Main {
     PriorityQueue<Event> eventsQueue = new PriorityQueue<>();
     PriorityQueue<Integer> finishTimes = new PriorityQueue<>();
     HashSet<Integer> assignedRides = new HashSet<>();
-    
+
     void solve() {
         rowsInGreed = in.nextInt();
         colInGreed = in.nextInt();
@@ -116,12 +116,6 @@ public class Main {
     private int getLen(int ride) {
         return Math.abs(rides[ride].colStart - rides[ride].colFinish)
                 + Math.abs(rides[ride].rowStart - rides[ride].rowFinish);
-    }
-
-
-    private int distFin(int ride, int bestVehicle) {
-        return Math.abs(rides[ride].colFinish - vehicles[bestVehicle].col)
-                + Math.abs(rides[ride].rowFinish - vehicles[bestVehicle].row);
     }
 
     //that will be in time
