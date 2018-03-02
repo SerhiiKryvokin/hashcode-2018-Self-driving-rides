@@ -1,4 +1,4 @@
-total score: 49,140,674
+total score: 49,140,684
 
 ### solution description
 Events describe possible actions in the point of time:  
