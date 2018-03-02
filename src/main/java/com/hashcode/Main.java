@@ -50,7 +50,7 @@ public class Main {
                 throw new RuntimeException();
             }
             if (stricStart < realEarliest) {
-                System.out.println("oops");
+                System.out.println("ride skipped as earliest possible start is too late");
                 continue;
             }
             if (stricStart != realEarliest) {
